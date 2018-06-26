@@ -1,0 +1,205 @@
+/* * {
+	box-sizing: border-box;
+}
+html {
+	display: block;
+}
+body {
+	color : blue;
+	font-family:  serif, sans-serif;
+	background-color: yellow;
+	border:none;
+}
+*/
+body {
+  font-size: 16px;
+  color: darkblue;
+  background-color: lightyellow;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+h1 {
+    text-align:center;
+    font-size: 1.75em;
+}
+
+.row {
+	width:100%;
+	border:none;
+}
+p {
+ 	border: none;
+ 	clear: right;
+ 	background-color: grey;
+ 	padding:5px 5px 5px 5px;
+ 	margin-bottom: 10px;
+ }
+
+@media(min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6,
+	.col-md-12 {
+		float: left;
+		border:none;
+	}
+
+.col-md-1 {
+	width: 8.33%;
+}
+
+.col-md-2 {
+	width: 16.66%;
+}
+
+.col-md-3 {
+	width: 25%;
+}
+
+.col-md-4 {
+	width: 33%;
+}
+
+.col-md-6 {
+	width: 50%;
+}
+
+.col-md-12 {
+	width: 100%;
+}
+
+}
+
+@media(min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-6,
+	.col-lg-12 {
+		float: left;
+		border:none;
+	}
+
+
+.col-lg-1 {
+	width: 8.33%;
+}
+
+.col-lg-2 {
+	width: 16.66%;
+}
+
+.col-lg-3 {
+	width: 25%;
+}
+
+.col-lg-4 {
+	width: 33.33%;
+}
+
+.col-lg-6 {
+	width: 50%;
+}
+
+.col-lg-12 {
+	width: 100%;
+}
+}
+
+div { 
+	box-sizing: border-box;
+	border: none;
+   
+}
+
+.content {
+	clear:right;
+	border: 1px solid black;
+	margin:10px;
+	padding: 0px 0px 0px 8px;
+	background-color: grey;
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+
+.itemtitle
+{
+	float: right;
+	font-size: 1.25em;
+	border : 1px solid black;
+	text-align: center;
+	width:30%;
+	height:25px;
+}
+
+#chicken {
+	color : purple;
+    background-color: orange;
+}
+#beef {
+
+	color :darkgreen;
+	background-color: red;
+
+}
+
+#sushi {
+	color : white;
+	background-color: darkblue;
+	
+}
