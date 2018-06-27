@@ -27,6 +27,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  padding-bottom: 10px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -47,6 +48,7 @@ body {
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
@@ -54,7 +56,10 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  
 }
+
+
 #nav-list a {
   color: #951C49;
   text-align: center;
@@ -113,27 +118,10 @@ div {
 
 .itemtitle
 {
-	float: right;
 	font-size: 1.25em;
-	border : 1px solid black;
 	text-align: center;
-	width:30%;
 	height:25px;
+        width:100%
+        margin-bottom: 5px;
 }
 
-#chicken {
-	color : purple;
-    background-color: orange;
-}
-#beef {
-
-	color :darkgreen;
-	background-color: red;
-
-}
-
-#sushi {
-	color : white;
-	background-color: darkblue;
-	
-}
